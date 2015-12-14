@@ -9,9 +9,6 @@
       "railscast-theme"
     ]
     destroyEmptyPanes: false
-    disabledPackages: [
-      "linter-rubocop"
-    ]
   editor:
     invisibles: {}
     showIndentGuide: true
@@ -42,15 +39,11 @@
     highContrast: true
     fontSize: 1
   "linter-rubocop":
-    command: "/Users/K/.rbenv/versions/2.2.2/bin/rubocop"
+    command: "/Users/K/.rbenv/versions/2.2.0/bin/rubocop"
     linter: {}
   "go-plus":
     goPath: "~/project/go-workspace"
     formatTool: "gofmt"
-  term3:
-    fontFamily: "menlo"
-    fontSize: "12"
-    scrollback: 10000
   linter: {}
   "linter-ruby": {}
   autosave:
@@ -67,3 +60,12 @@
   "vim-mode": {}
   "highlight-selected": {}
   "highlight-line": {}
+  "autocomplete-ruby": {}
+  "ruby-block":
+    highlightLineNumber: true
+".erb.html.text":
+  editor:
+    preferredLineLength: 100
+".ruby.source":
+  editor:
+    preferredLineLength: 100
