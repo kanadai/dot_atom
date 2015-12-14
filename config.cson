@@ -1,0 +1,69 @@
+"*":
+  "exception-reporting":
+    userId: "a9d83d3c-e682-a8b4-f4c2-65c5dbfc8a47"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "railscast-theme"
+    ]
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "linter-rubocop"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    zoomFontWhenCtrlScrolling: true
+    softWrap: true
+    preferredLineLength: 100
+    scrollPastEnd: true
+    fontFamily: "menlo"
+    fontSize: 13
+  "autocomplete-plus":
+    autoActivationDelay: 0
+    strictMatching: true
+    minimumWordLength: 1
+    confirmCompletion: "enter"
+    defaultProvider: "Fuzzy"
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  minimap:
+    plugins:
+      "git-diff": true
+      bookmarks: true
+      "minimap-autohide": true
+      "highlight-selected": true
+      pigments: true
+  "tabs-to-spaces":
+    onSave: "untabify"
+  jumpy:
+    highContrast: true
+    fontSize: 1
+  "linter-rubocop":
+    command: "/Users/K/.rbenv/versions/2.2.2/bin/rubocop"
+    linter: {}
+  "go-plus":
+    goPath: "~/project/go-workspace"
+    formatTool: "gofmt"
+  term3:
+    fontFamily: "menlo"
+    fontSize: "12"
+    scrollback: 10000
+  linter: {}
+  "linter-ruby": {}
+  autosave:
+    enabled: true
+  "atom-text-editor":
+    "vim-mode":
+      "normal-mode":
+        "ctrl-i": "cursor-history:next"
+        "ctrl-o": "cursor-history:prev"
+        "ctrl-cmd-i": "cursor-history:next-within-editor"
+        "ctrl-cmd-o": "cursor-history:prev-within-editor"
+  "cursor-history": {}
+  "atom-beautify": {}
+  "vim-mode": {}
+  "highlight-selected": {}
+  "highlight-line": {}
