@@ -41,7 +41,7 @@
     highContrast: true
     fontSize: 1
   "linter-rubocop":
-    command: "/Users/K/.rbenv/versions/2.2.2/bin/rubocop"
+    command: "/Users/K/.rbenv/versions/2.2.0/bin/rubocop"
     linter: {}
   "go-plus":
     goPath: "~/project/go-workspace"
