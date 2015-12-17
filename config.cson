@@ -6,7 +6,7 @@
   core:
     themes: [
       "slack-ui"
-      "railscast-theme"
+      "base16-tomorrow-dark-theme"
     ]
     destroyEmptyPanes: false
     disabledPackages: [
