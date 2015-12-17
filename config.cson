@@ -42,7 +42,7 @@
     highContrast: true
     fontSize: 1
   "linter-rubocop":
-    command: "/Users/K/.rbenv/versions/2.2.0/bin/rubocop"
+    command: "/Users/K/.rbenv/shims/rubocop"
     linter: {}
   "go-plus":
     goPath: "~/project/go-workspace"
@@ -66,9 +66,27 @@
   "autocomplete-ruby": {}
   "ruby-block":
     highlightLineNumber: true
+  "linter-golinter":
+    executablePath: "/Users/K/projects/my/go-workspace/bin/golint"
+  "advanced-open-file":
+    createFileInstantly: true
+  "linter-scss-lint":
+    executablePath: "/Users/K/.rbenv/shims/scss-lint"
+".basic.html.text":
+  editor:
+    preferredLineLength: 100
 ".erb.html.text":
   editor:
     preferredLineLength: 100
+".gohtml.html.text":
+  editor:
+    preferredLineLength: 100
 ".ruby.source":
+  editor:
+    preferredLineLength: 100
+".go.source":
+  editor:
+    preferredLineLength: 100
+".gotemplate.source":
   editor:
     preferredLineLength: 100

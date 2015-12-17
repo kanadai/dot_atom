@@ -1,3 +1,4 @@
+advanced-open-file@0.13.0
 angularjs@0.3.3
 atom-beautify@0.28.19
 atom-terminal@0.8.0
@@ -10,11 +11,14 @@ docblockr@0.7.3
 ex-mode@0.7.0
 file-icons@1.6.13
 file-types@0.5.1
+gitignore-snippets@0.2.5
+go-plus@3.5.2
 highlight-selected@0.11.1
 javascript-snippets@1.0.0
 jshint@1.8.3
 jumpy@2.0.10
 linter@1.11.3
+linter-golinter@1.0.0
 linter-jshint@1.2.1
 linter-rubocop@0.4.5
 linter-ruby@1.2.0
@@ -34,8 +38,9 @@ railscast-theme@0.3.0
 rspec@0.3.2
 ruby-block@0.3.5
 show-ideographic-space@1.0.1
-slim-language@2.2.0
 sort-lines@0.12.0
 tabs-to-spaces@1.0.1
+tag@0.3.0
+todo-show@1.2.0
 vim-mode@0.63.0
 
