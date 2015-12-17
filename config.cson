@@ -5,13 +5,18 @@
     showOnStartup: false
   core:
     themes: [
-      "atom-dark-ui"
+      "slack-ui"
       "railscast-theme"
     ]
     destroyEmptyPanes: false
     disabledPackages: [
       "linter-rubocop"
     ]
+    packagesWithKeymapsDisabled: [
+      "highlight-selected"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/K/projects"
   editor:
     invisibles: {}
     showIndentGuide: true
@@ -21,6 +26,7 @@
     scrollPastEnd: true
     fontFamily: "menlo"
     fontSize: 13
+    showInvisibles: true
   "autocomplete-plus":
     autoActivationDelay: 0
     strictMatching: true
@@ -61,7 +67,9 @@
   "cursor-history": {}
   "atom-beautify": {}
   "vim-mode": {}
-  "highlight-selected": {}
+  "highlight-selected":
+    highlightBackground: true
+    lightTheme: true
   "highlight-line": {}
   "autocomplete-ruby": {}
   "ruby-block":
@@ -72,6 +80,9 @@
     createFileInstantly: true
   "linter-scss-lint":
     executablePath: "/Users/K/.rbenv/shims/scss-lint"
+  pigments: {}
+  "highlight-column":
+    lineMode: true
 ".basic.html.text":
   editor:
     preferredLineLength: 100
