@@ -51,7 +51,8 @@
     command: "/Users/K/.rbenv/shims/rubocop"
     linter: {}
   "go-plus":
-    goPath: "~/project/go-workspace"
+    goInstallation: "/usr/local/bin/go"
+    goPath: "~/projects/go-workspace"
     formatTool: "gofmt"
   linter: {}
   "linter-ruby": {}
@@ -85,21 +86,21 @@
   pigments: {}
   "highlight-column":
     lineMode: true
-".gohtml.html.text":
+".basic.html.text":
   editor:
     preferredLineLength: 100
 ".erb.html.text":
   editor:
     preferredLineLength: 100
-".basic.html.text":
+".gohtml.html.text":
   editor:
     preferredLineLength: 100
-".gotemplate.source":
+".ruby.source":
   editor:
     preferredLineLength: 100
 ".go.source":
   editor:
     preferredLineLength: 100
-".ruby.source":
+".gotemplate.source":
   editor:
     preferredLineLength: 100
