@@ -66,7 +66,8 @@
         "ctrl-cmd-o": "cursor-history:prev-within-editor"
   "cursor-history": {}
   "atom-beautify": {}
-  "vim-mode": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
   "highlight-selected":
     highlightBackground: true
     lightTheme: true
@@ -84,21 +85,21 @@
   pigments: {}
   "highlight-column":
     lineMode: true
-".basic.html.text":
+".gohtml.html.text":
   editor:
     preferredLineLength: 100
 ".erb.html.text":
   editor:
     preferredLineLength: 100
-".gohtml.html.text":
+".basic.html.text":
   editor:
     preferredLineLength: 100
-".ruby.source":
+".gotemplate.source":
   editor:
     preferredLineLength: 100
 ".go.source":
   editor:
     preferredLineLength: 100
-".gotemplate.source":
+".ruby.source":
   editor:
     preferredLineLength: 100
