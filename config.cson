@@ -89,21 +89,21 @@
     lineMode: true
   "tree-view":
     hideIgnoredNames: true
-".basic.html.text":
+".gohtml.html.text":
   editor:
     preferredLineLength: 100
 ".erb.html.text":
   editor:
     preferredLineLength: 100
-".gohtml.html.text":
+".basic.html.text":
   editor:
     preferredLineLength: 100
-".ruby.source":
+".gotemplate.source":
   editor:
     preferredLineLength: 100
 ".go.source":
   editor:
     preferredLineLength: 100
-".gotemplate.source":
+".ruby.source":
   editor:
     preferredLineLength: 100

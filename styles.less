@@ -40,3 +40,12 @@ atom-text-editor::shadow .cursor {
     visibility: visible;
   }
 }
+atom-text-editor, atom-text-editor::shadow {
+  .highlight.ideographic-space {
+    .region:after {
+      color: #fff;
+      content: '◯';
+      background-color: rgb(233, 62, 129);
+    }
+  }
+}
