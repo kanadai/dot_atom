@@ -1,107 +1,132 @@
 "*":
-  "exception-reporting":
-    userId: "a9d83d3c-e682-a8b4-f4c2-65c5dbfc8a47"
-  welcome:
-    showOnStartup: false
+  "advanced-open-file":
+    createFileInstantly: true
+  "atom-beautify": {}
+  "atom-terminal": {}
+  "atom-text-editor":
+    "vim-mode":
+      "normal-mode":
+        "ctrl-cmd-i": "cursor-history:next-within-editor"
+        "ctrl-cmd-o": "cursor-history:prev-within-editor"
+        "ctrl-i": "cursor-history:next"
+        "ctrl-o": "cursor-history:prev"
+  "autocomplete-plus":
+    autoActivationDelay: 0
+    confirmCompletion: "enter"
+    defaultProvider: "Fuzzy"
+    minimumWordLength: 1
+    strictMatching: true
+  "autocomplete-ruby": {}
+  autosave:
+    enabled: true
   core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "linter-rubocop"
+      "tree-view"
+      "language-go"
+      "linter-jshint"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "highlight-selected"
+    ]
+    projectHome: "/Users/K/projects"
+    telemetryConsent: "no"
     themes: [
       "slack-ui"
       "base16-tomorrow-dark-theme"
     ]
-    destroyEmptyPanes: false
-    disabledPackages: [
-      "linter-rubocop"
-    ]
-    packagesWithKeymapsDisabled: [
-      "highlight-selected"
-    ]
-    openEmptyEditorOnStart: false
-    projectHome: "/Users/K/projects"
+  "cursor-history": {}
   editor:
-    invisibles: {}
-    showIndentGuide: true
-    zoomFontWhenCtrlScrolling: true
-    softWrap: true
-    preferredLineLength: 100
-    scrollPastEnd: true
     fontFamily: "menlo"
     fontSize: 13
+    invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
     showInvisibles: true
-  "autocomplete-plus":
-    autoActivationDelay: 0
-    strictMatching: true
-    minimumWordLength: 1
-    confirmCompletion: "enter"
-    defaultProvider: "Fuzzy"
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
-  minimap:
-    plugins:
-      "git-diff": true
-      bookmarks: true
-      "minimap-autohide": true
-      "highlight-selected": true
-      pigments: true
-  "tabs-to-spaces":
-    onSave: "untabify"
-  jumpy:
-    highContrast: true
-    fontSize: 1
-  "linter-rubocop":
-    command: "/Users/K/.rbenv/shims/rubocop"
-    linter: {}
+    softWrap: true
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "a9d83d3c-e682-a8b4-f4c2-65c5dbfc8a47"
   "go-plus":
+    formatTool: "gofmt"
     goInstallation: "/usr/local/bin/go"
     goPath: "~/projects/my/go-workspace"
-    formatTool: "gofmt"
     golintArgs: "~/projects/my/go-workspace/bin/golint"
-  linter: {}
-  "linter-ruby": {}
-  autosave:
-    enabled: true
-  "atom-text-editor":
-    "vim-mode":
-      "normal-mode":
-        "ctrl-i": "cursor-history:next"
-        "ctrl-o": "cursor-history:prev"
-        "ctrl-cmd-i": "cursor-history:next-within-editor"
-        "ctrl-cmd-o": "cursor-history:prev-within-editor"
-  "cursor-history": {}
-  "atom-beautify": {}
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
+  "highlight-column":
+    lineMode: true
+  "highlight-line": {}
   "highlight-selected":
     highlightBackground: true
     lightTheme: true
-  "highlight-line": {}
-  "autocomplete-ruby": {}
-  "ruby-block":
-    highlightLineNumber: true
-  "atom-terminal": {}
+  jshint:
+    supportLintingJsx: true
+  jumpy:
+    fontSize: 1
+    highContrast: true
+  linter: {}
   "linter-golinter":
     executablePath: "/Users/K/projects/my/go-workspace/bin/golint"
-  "advanced-open-file":
-    createFileInstantly: true
+  "linter-rubocop":
+    command: "/Users/K/.rbenv/shims/rubocop"
+    linter: {}
+  "linter-ruby": {}
   "linter-scss-lint":
+    disableWhenNoConfigFileInPath: true
     executablePath: "/Users/K/.rbenv/shims/scss-lint"
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
   pigments: {}
-  "highlight-column":
-    lineMode: true
+  "ruby-block":
+    highlightLineNumber: true
+  "tabs-to-spaces":
+    onSave: "untabify"
   "tree-view":
     hideIgnoredNames: true
-".gohtml.html.text":
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".basic.html.text":
   editor:
     preferredLineLength: 100
 ".erb.html.text":
   editor:
     preferredLineLength: 100
-".basic.html.text":
+".go.source":
+  editor:
+    preferredLineLength: 100
+".gohtml.html.text":
   editor:
     preferredLineLength: 100
 ".gotemplate.source":
-  editor:
-    preferredLineLength: 100
-".go.source":
   editor:
     preferredLineLength: 100
 ".ruby.source":
